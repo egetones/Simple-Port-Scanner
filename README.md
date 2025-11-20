@@ -1,25 +1,37 @@
-# Simple Python Port Scanner 📡
+# Simple Python Port Scanner
 
-Bu proje, Python'un yerel `socket` kütüphanesini kullanarak hedef IP üzerindeki açık portları tespit eden bir ağ keşif aracıdır.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python)
+![Type](https://img.shields.io/badge/Type-Network_Scanner-orange)
 
-## 🎯 Amaç
-Bilişim güvenliği eğitimim kapsamında;
-- **TCP/IP** bağlantı mantığını (3-way handshake),
-- **Socket** programlamayı,
-- Ağ üzerindeki servislerin nasıl dinlendiğini anlamak amacıyla geliştirilmiştir.
+**A lightweight network discovery tool that detects open ports on a target IP using Python's native `socket` library.**
 
-## ⚙️ Özellikler
-- Belirtilen hedef IP adresini tarar.
-- Yaygın portları (veya belirtilen aralığı) kontrol eder.
-- Bağlantı zamanını (Timestamp) gösterir.
-- Açık portları ve servisleri raporlar.
+---
 
-## ⚠️ Yasal Uyarı (Disclaimer)
-Bu araç yalnızca eğitim ve test amaçlıdır. Sadece sahibi olduğunuz veya izniniz olan ağlarda kullanınız. İzinsiz port taraması yasal suç teşkil edebilir.
+## Purpose
 
-## 🚀 Kullanım
+This project was developed as part of my **Information Security** studies to understand the fundamentals of:
 
-```bash
-git clone [https://github.com/KULLANICI_ADIN/simple-port-scanner.git](https://github.com/KULLANICI_ADIN/simple-port-scanner.git)
-cd simple-port-scanner
-python3 scanner.py
+* **TCP/IP Connection Logic:** Specifically the mechanics of the 3-way handshake.
+* **Socket Programming:** How to interact with network interfaces programmatically.
+* **Service Detection:** How services listen on a network and how they can be identified.
+
+## Features
+
+  **Target Scanning:** Scans any specified IPv4 address.
+  **Range Support:** Checks common ports or a user-defined range.
+  **Timestamps:** Displays the exact time of connection attempts.
+  **Reporting:** Identifies and reports open ports and active services.
+
+---
+
+## ⚠️ Disclaimer
+
+**This tool is intended for educational and testing purposes only.** Use this tool strictly on networks you own or have explicit permission to audit. Unauthorized port scanning is illegal and may be considered a cybercrime. The developer is not responsible for any misuse.
+
+---
+
+## Usage
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/simple-port-scanner.git](https://github.com/your-username/simple-port-scanner.git)
