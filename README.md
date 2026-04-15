@@ -35,3 +35,4 @@ This project was developed as part of my **Information Security** studies to und
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/egetones/simple-port-scanner.git
+Çrş 15 Nis 2026 22:16:12 +03
